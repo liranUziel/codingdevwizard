@@ -1,0 +1,44 @@
+.Contact__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #21243D;
+    color:white;
+    padding: 50px 20%;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    button{
+        width: fit-content;
+        border: none;
+        background-color: #FF6464;
+        color:white;
+        padding: 5px 10px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+}
+.contact_form__wrapper{
+    display: flex;
+    gap: 20px;
+    .contact_form__fields{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_form__text{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+.social__link__wrapper{
+    display: flex;
+    gap:50px;
+    a{
+        color:white;
+    }
+}
+//21243D    

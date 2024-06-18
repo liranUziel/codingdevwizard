@@ -1,0 +1,22 @@
+.project__wrapper{
+    background-color: #EDF7FA;
+    padding: 50px 20%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    &__title{
+        font-size: 22px;
+    }
+}
+.projects{
+    ul{
+        .project__card{
+            list-style: none;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #EDEDED;
+            margin-bottom: 30px;
+        }
+    }   
+        
+}

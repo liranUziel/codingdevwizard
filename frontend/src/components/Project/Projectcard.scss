@@ -1,0 +1,59 @@
+@import './projectcard.colors.scss';
+
+.projectcard__thumbnail{
+    img{
+        max-width: 250px;
+        border-radius: 5px;
+    }
+}
+.projectcard__wrapper{
+    display: flex;
+    max-width: 60%;
+    gap: 1rem;
+}
+
+.info__short__year{
+    background-color: #142850;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    min-width: 50px;
+    width: fit-content;
+    padding: 0 15px;
+    height: 20px;
+    border-radius: 8px;
+}
+.info__short__subject{
+    font-size: 20px;
+    color: #8695A4;
+}
+.taglist{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    &__item .tag{
+        text-align: center;
+        font-weight: bold;
+        min-width: 50px;
+        padding: 0 15px;
+        height: 20px;
+        border-radius: 8px;
+    }
+
+
+    
+}
+
+@each $tag-name, $color in $tag-bg-colors {
+    .bg-color-#{$tag-name} {
+        background-color: $color;
+    }
+
+}
+
+@each $tag-name, $color in $tag-colors {
+    .text-color-#{$tag-name} {
+        color: $color;
+    }
+
+}

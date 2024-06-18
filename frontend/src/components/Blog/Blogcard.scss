@@ -1,0 +1,10 @@
+.Blogcard__wrapper{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    .Blogcard__info{
+        display: flex;
+        justify-content: space-between;
+    }    
+}
